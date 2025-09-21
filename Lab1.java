@@ -54,10 +54,10 @@ public class Lab1
         Random random_generator = new Random();
         float[] array_x = new float[array_x_size];
 
-        for (int i = 0; i < array_x_size; i++)
+        for (int i = 0; i < array_x_size; ++i)
             array_x[i] = random_generator.nextFloat(-6.0f, 4.0f);
 
-        for (int i = 0; i < array_x_size; i++)
+        for (int i = 0; i < array_x_size; ++i)
             System.out.printf("%.5f ", array_x[i]);
         System.out.println();
 
